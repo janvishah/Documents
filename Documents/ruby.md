@@ -97,15 +97,15 @@ x.class #=> String
 ```
 * Ruby has blocks and a lot of methods that make good use of them:
 ```ruby
-  [1,2,3,4].map {|x| x+3} #=> [4,5,6,7]
-  [5,7,11,8].any? {|x| x>10} #=> true
-  [5,7,11,8].all? {|x| x>10} #=> false
-  5.times { puts "Hello world" } # Prints "Hello World" five times.
+[1,2,3,4].map {|x| x+3} #=> [4,5,6,7]
+[5,7,11,8].any? {|x| x>10} #=> true
+[5,7,11,8].all? {|x| x>10} #=> false
+5.times { puts "Hello world" } # Prints "Hello World" five times.
 ```
 
 ### What is required to execute Ruby code?
-    The file must have executioon permission
-    And there must me loaded .profile file
+  The file must have executioon permission
+  And there must me loaded .profile file
 
 ### How make ruby file executable?
     first write this line in the file. This line call ruby executable file from its path
