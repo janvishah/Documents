@@ -6,16 +6,16 @@
   > Scripting language : There is no complier in scripting language. it compile the code on execution time.(in scripting language at the run time code compile line by line and execute)
   > (in compiler language: compiler compile the program and convert code in to machine language and after that run the obj file)
 
-  Advantage of ruby
-    -It is open source programming language with focus on simplicity.
-    -It has an advance array class. - we dont need to define size before compilation
-    -It is extensible - we can add external libraries in ruby and c
-    -It encourages literate programming - we can add comment with program
-    -It uses punctuation and capitalization creatively : for ex: All class names have 1st latter is capital. all instance is start with @. 
-    -it has flexible syantax : ex: we can omit parenthese from function. we can omit return from the function
-    -It is expressioon orienetes : we can write x= if a<0 then b else c
+  ### Advantage of ruby
+    - It is open source programming language with focus on simplicity.
+    - It has an advance array class. - we dont need to define size before compilation
+    - It is extensible - we can add external libraries in ruby and c
+    - It encourages literate programming - we can add comment with program
+    - It uses punctuation and capitalization creatively : for ex: All class names have 1st latter is capital. all instance is start with @. 
+    - it has flexible syantax : ex: we can omit parenthese from function. we can omit return from the function
+    - It is expressioon orienetes : we can write x= if a<0 then b else c
 
-  To understand how ruby interpreter works:
+  ### To understand how ruby interpreter works:
     http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/
     To know how interpreter and compiler work -> Documents/compiler-Interpreter
    
