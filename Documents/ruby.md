@@ -20,9 +20,9 @@
 
 #### To understand how ruby interpreter works:
 
-    (http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/)
+  http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/)
 
-    To know how interpreter and compiler work -> Documents/compiler-Interpreter
+  To know how interpreter and compiler work -> Documents/compiler-Interpreter
    
    
 #### From where ruby script execute?
@@ -114,12 +114,12 @@ x.class #=> String
     It is called a Shebang. It tells the program loader what command to use to execute the file. if we use RVM, A portable way (working, say, under Cygwin and RVM) would be:
         #!/usr/bin/env ruby Or #!/usr/bin/env ruby -w
     This will use the env command to figure out where the Ruby interpreter is, and run it.
-    I think -w refers to enabling verbose mode or simply enabling error reporting.  
+    I think -w refers to simply enabling error reporting.  
     
     Than give executable permission to the file 
       chmod +x hello 
 
 #### Difference between require and load method.
-    - The load method includes the named Ruby source file every time the method is executed.
-    - require method loads any given file only once.
-    - require_relative (introduced in Ruby 1.9) use for the location of the file we're loading is relative to the file we're loading it from - they're both in the same directory.
+    * The load method includes the named Ruby source file every time the method is executed.
+    * require method loads any given file only once.
+    * require_relative (introduced in Ruby 1.9) use for the location of the file we're loading is relative to the file we're loading it from - they're both in the same directory.
