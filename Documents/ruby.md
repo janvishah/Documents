@@ -2,8 +2,11 @@
 ======
 
   Ruby is a dynamic, open source programming language with focus on simplicity. It has an elegant syntax that is natural to read and easy to write. ruby has evry thing is object. even data type is an object.
+
   Ruby is a scripting language.
+  
   Scripting language : There is no complier in scripting language. it compile the code on execution time.(in scripting language at the run time code compile line by line and execute)
+  
   (in compiler language: compiler compile the program and convert code in to machine language and after that run the obj file)
 
 ### Advantage of ruby
@@ -17,10 +20,11 @@
 
 ### To understand how ruby interpreter works:
   http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/
+
   To know how interpreter and compiler work -> Documents/compiler-Interpreter
    
    
-  from where ruby script execute?
+  ### From where ruby script execute?
 
     /home/homeuser/.rvm/bin/ruby at where rvm ruby execution file store
     /usr/bin/env ruby at where system ruby, and not any of the rvm rubies.
