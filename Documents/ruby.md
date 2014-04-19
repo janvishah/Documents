@@ -10,19 +10,19 @@
 
 ### Advantage of ruby
 
-  * It is open source programming language with focus on simplicity.
-  * It has an advance array class. - we dont need to define size before compilation
-  * It is extensible - we can add external libraries in ruby and c
-  * It encourages literate programming - we can add comment with program
-  * It uses punctuation and capitalization creatively : for ex: All class names have 1st latter is capital. all instance is start with @. 
-  * it has flexible syantax : ex: we can omit parenthese from function. we can omit return from the function
-  * It is expressioon orienetes : we can write x= if a<0 then b else c
+    * It is open source programming language with focus on simplicity.
+    * It has an advance array class. - we dont need to define size before compilation
+    * It is extensible - we can add external libraries in ruby and c
+    * It encourages literate programming - we can add comment with program
+    * It uses punctuation and capitalization creatively : for ex: All class names have 1st latter is capital. all instance is start with @. 
+    * it has flexible syantax : ex: we can omit parenthese from function. we can omit return from the function
+    * It is expressioon orienetes : we can write x= if a<0 then b else c
 
 ### To understand how ruby interpreter works:
 
-http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/
+    http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/
 
-To know how interpreter and compiler work -> Documents/compiler-Interpreter
+    To know how interpreter and compiler work -> Documents/compiler-Interpreter
    
    
 ### From where ruby script execute?
@@ -104,8 +104,8 @@ x.class #=> String
 ```
 
 ### What is required to execute Ruby code?
-  The file must have executioon permission
-  And there must me loaded .profile file
+    The file must have executioon permission.
+    There must me loaded .profile file
 
 ### How make ruby file executable?
     first write this line in the file. This line call ruby executable file from its path
