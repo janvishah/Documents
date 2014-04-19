@@ -74,8 +74,10 @@ This path is stored in ~/.profile file. and this file is executed autometically 
 
 * ruby is scripting language and c++ is compiled language
 * In ruby everthing is an object:
-      5.class #=> Integer
-      Integer.class #=> Class
+```ruby
+5.class #=> Integer
+Integer.class #=> Class
+```
 * In ruby you can reopen classes:
       5.double #=> Error: No such method
       class Integer
