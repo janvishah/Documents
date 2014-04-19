@@ -1,5 +1,4 @@
 # Ruby
-======
 
   Ruby is a dynamic, open source programming language with focus on simplicity. It has an elegant syntax that is natural to read and easy to write. ruby has evry thing is object. even data type is an object.
 
@@ -10,6 +9,7 @@
   (in compiler language: compiler compile the program and convert code in to machine language and after that run the obj file)
 
 ### Advantage of ruby
+
   1. It is open source programming language with focus on simplicity.
   2. It has an advance array class. - we dont need to define size before compilation
   3. It is extensible - we can add external libraries in ruby and c
@@ -19,20 +19,25 @@
   7. It is expressioon orienetes : we can write x= if a<0 then b else c
 
 ### To understand how ruby interpreter works:
+
   http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/
 
   To know how interpreter and compiler work -> Documents/compiler-Interpreter
    
    
-  ### From where ruby script execute?
+### From where ruby script execute?
 
-    /home/homeuser/.rvm/bin/ruby at where rvm ruby execution file store
-    /usr/bin/env ruby at where system ruby, and not any of the rvm rubies.
-    This path is stored in ~/.profile file. and this file is executed autometically by displaymanager during the startup process desktop session
+  /home/homeuser/.rvm/bin/ruby at where rvm ruby execution file store
+
+  /usr/bin/env ruby at where system ruby, and not any of the rvm rubies.
+  
+  This path is stored in ~/.profile file. and this file is executed autometically by displaymanager during the startup process desktop session
 
     if there is no .profile file load in than how can ruby file execute? or hoy ruby file execute.
+      
       for that we should know where our ruby install?
         so for that we find directory of ruby using 'which ruby'
+      
       after find that we need to go in ruby directory
         and execute our ruby file.
 
