@@ -10,13 +10,13 @@
 
 ### Advantage of ruby
 
-  1. It is open source programming language with focus on simplicity.
-  2. It has an advance array class. - we dont need to define size before compilation
-  3. It is extensible - we can add external libraries in ruby and c
-  4. It encourages literate programming - we can add comment with program
-  5. It uses punctuation and capitalization creatively : for ex: All class names have 1st latter is capital. all instance is start with @. 
-  6. it has flexible syantax : ex: we can omit parenthese from function. we can omit return from the function
-  7. It is expressioon orienetes : we can write x= if a<0 then b else c
+  ..* It is open source programming language with focus on simplicity.
+  ..* It has an advance array class. - we dont need to define size before compilation
+  ..* It is extensible - we can add external libraries in ruby and c
+  ..* It encourages literate programming - we can add comment with program
+  ..* It uses punctuation and capitalization creatively : for ex: All class names have 1st latter is capital. all instance is start with @. 
+  ..* it has flexible syantax : ex: we can omit parenthese from function. we can omit return from the function
+  ..* It is expressioon orienetes : we can write x= if a<0 then b else c
 
 ### To understand how ruby interpreter works:
 
@@ -33,7 +33,7 @@
   
   This path is stored in ~/.profile file. and this file is executed autometically by displaymanager during the startup process desktop session
 
-    if there is no .profile file load in than how can ruby file execute? or hoy ruby file execute.
+  ##### if there is no .profile file load in than how can ruby file execute? or hoy ruby file execute.
       
       for that we should know where our ruby install?
         so for that we find directory of ruby using 'which ruby'
