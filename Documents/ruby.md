@@ -42,6 +42,7 @@ This path is stored in ~/.profile file. and this file is executed autometically 
     and execute our ruby file.
 
   Why we need to do above process?
+
     because there is anhttp://example.com ruby execution file. without that file we can't execute that code.
 
     for ex: i try some step which is below
@@ -69,15 +70,13 @@ This path is stored in ~/.profile file. and this file is executed autometically 
 
         same as Whole ruby is written in c language and when we write ruby hello.rb we call execution file of ruby with argument hello.rb. When we try to execute ruby file in another folder in which ruby execution file is nt exist, it is throw an error and we cant execute ruby script.
   
-  ### Ruby Vs C++
+### Ruby Vs C++
 
-    ruby is scripting language and c++ is compiled language
-
-    In ruby everthing is an object:
+* ruby is scripting language and c++ is compiled language
+* In ruby everthing is an object:
       5.class #=> Integer
       Integer.class #=> Class
-
-    In ruby you can reopen classes:
+* In ruby you can reopen classes:
       5.double #=> Error: No such method
       class Integer
         def double()
@@ -86,23 +85,23 @@ This path is stored in ~/.profile file. and this file is executed autometically 
       end
       5.double #=> 10
 
-    Ruby has dynamic typing:
+* Ruby has dynamic typing:
       x = 5
       x.class #=> Integer
       x = "lala"
       x.class #=> String
 
-    Ruby has blocks and a lot of methods that make good use of them:
+* Ruby has blocks and a lot of methods that make good use of them:
       [1,2,3,4].map {|x| x+3} #=> [4,5,6,7]
       [5,7,11,8].any? {|x| x>10} #=> true
       [5,7,11,8].all? {|x| x>10} #=> false
       5.times { puts "Hello world" } # Prints "Hello World" five times.
 
-  What is required to execute Ruby code?
+### What is required to execute Ruby code?
     The file must have executioon permission
     And there must me loaded .profile file
 
-  How make ruby file executable?
+### How make ruby file executable?
     first write this line in the file. This line call ruby executable file from its path
         #!/usr/bin/ruby
       It is called a Shebang. It tells the program loader what command to use to execute the file. if we use RVM, A portable way (working, say, under Cygwin and RVM) would be:
