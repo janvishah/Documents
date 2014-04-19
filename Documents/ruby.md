@@ -79,25 +79,29 @@ This path is stored in ~/.profile file. and this file is executed autometically 
 Integer.class #=> Class
 ```
 * In ruby you can reopen classes:
-      5.double #=> Error: No such method
-      class Integer
-        def double()
-          self * 2
-        end
-      end
-      5.double #=> 10
-
+```ruby
+5.double #=> Error: No such method
+class Integer
+  def double()
+    self * 2
+  end
+end
+5.double #=> 10
+```
 * Ruby has dynamic typing:
-      x = 5
-      x.class #=> Integer
-      x = "lala"
-      x.class #=> String
-
+```ruby
+x = 5
+x.class #=> Integer
+x = "lala"
+x.class #=> String
+```
 * Ruby has blocks and a lot of methods that make good use of them:
-      [1,2,3,4].map {|x| x+3} #=> [4,5,6,7]
-      [5,7,11,8].any? {|x| x>10} #=> true
-      [5,7,11,8].all? {|x| x>10} #=> false
-      5.times { puts "Hello world" } # Prints "Hello World" five times.
+```ruby
+  [1,2,3,4].map {|x| x+3} #=> [4,5,6,7]
+  [5,7,11,8].any? {|x| x>10} #=> true
+  [5,7,11,8].all? {|x| x>10} #=> false
+  5.times { puts "Hello world" } # Prints "Hello World" five times.
+```
 
 ### What is required to execute Ruby code?
     The file must have executioon permission
