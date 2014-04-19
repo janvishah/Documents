@@ -20,7 +20,7 @@
 
 #### To understand how ruby interpreter works:
 
-    http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/
+    (http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/)
 
     To know how interpreter and compiler work -> Documents/compiler-Interpreter
    
@@ -43,7 +43,7 @@ This path is stored in ~/.profile file. and this file is executed autometically 
 
   Why we need to do above process?
 
-    because there is anhttp://example.com ruby execution file. without that file we can't execute that code.
+    because there is an http://example.com ruby execution file. without that file we can't execute that code.
 
     for ex: i try some step which is below
     1.  i write one ruby file named hello.rb
