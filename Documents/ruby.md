@@ -1,10 +1,10 @@
 # Ruby
 ======
 
-  > Ruby is a dynamic, open source programming language with focus on simplicity. It has an elegant syntax that is natural to read and easy to write. ruby has evry thing is object. even data type is an object.
-  > Ruby is a scripting language.
-  > Scripting language : There is no complier in scripting language. it compile the code on execution time.(in scripting language at the run time code compile line by line and execute)
-  > (in compiler language: compiler compile the program and convert code in to machine language and after that run the obj file)
+  Ruby is a dynamic, open source programming language with focus on simplicity. It has an elegant syntax that is natural to read and easy to write. ruby has evry thing is object. even data type is an object.
+  Ruby is a scripting language.
+  Scripting language : There is no complier in scripting language. it compile the code on execution time.(in scripting language at the run time code compile line by line and execute)
+  (in compiler language: compiler compile the program and convert code in to machine language and after that run the obj file)
 
 ### Advantage of ruby
   1. It is open source programming language with focus on simplicity.
