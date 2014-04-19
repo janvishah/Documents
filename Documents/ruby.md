@@ -33,43 +33,43 @@ To know how interpreter and compiler work -> Documents/compiler-Interpreter
   
 This path is stored in ~/.profile file. and this file is executed autometically by displaymanager during the startup process desktop session
 
-##### If there is no .profile file load in than how can ruby file execute? or hoy ruby file execute.
+##### If there is no .profile file load in than how can ruby file execute? or how ruby file execute?
       
-      for that we should know where our ruby install?
-        so for that we find directory of ruby using 'which ruby'
-      
-      after find that we need to go in ruby directory
-        and execute our ruby file.
-
-    Why we need to do above process?
-      because there is anhttp://example.com ruby execution file. without that file we can't execute that code.
-
-      for ex: i try some step which is below
-      1.  i write one ruby file named hello.rb
-            puts "Hello World"
-      2.  i try to run that file by command
-            ruby hello.rb 
-          and this executes the file.
-      3.  now i remove the path and try to execute ruby file it isnt..
-          why?
-            because ruby made from a c language. So it is a execition file of c language. when we try ruby hello.rb we call the obj file of c with one argument and it is try to find the path of ruby execution file.
-
-            ex : #include <stdio.h>
-                int main( int argc, char *argv[] )  
-                {
-                   if( argv[1] != nil )
-                   {
-
-                      printf("The sum of the number is= %d", argv[0] + argv[1]);
-                   }   
-                }
-                i write this code in file name addition.c. now when i try to execute this code i need to give arguments two that file
-                  addition.c 4 5
-                  and this give the output: The sum of the number is= 9
-
-            same as Whole ruby is written in c language and when we write ruby hello.rb we call execution file of ruby with argument hello.rb. When we try to execute ruby file in another folder in which ruby execution file is nt exist, it is throw an error and we cant execute ruby script.
+  for that we should know where our ruby install?
+    so for that we find directory of ruby using 'which ruby'
   
-  Ruby Vs C++
+  after find that we need to go in ruby directory
+    and execute our ruby file.
+
+  Why we need to do above process?
+    because there is anhttp://example.com ruby execution file. without that file we can't execute that code.
+
+    for ex: i try some step which is below
+    1.  i write one ruby file named hello.rb
+          puts "Hello World"
+    2.  i try to run that file by command
+          ruby hello.rb 
+        and this executes the file.
+    3.  now i remove the path and try to execute ruby file it isnt..
+        why?
+          because ruby made from a c language. So it is a execition file of c language. when we try ruby hello.rb we call the obj file of c with one argument and it is try to find the path of ruby execution file.
+
+          ex : #include <stdio.h>
+              int main( int argc, char *argv[] )  
+              {
+                 if( argv[1] != nil )
+                 {
+
+                    printf("The sum of the number is= %d", argv[0] + argv[1]);
+                 }   
+              }
+              i write this code in file name addition.c. now when i try to execute this code i need to give arguments two that file
+                addition.c 4 5
+                and this give the output: The sum of the number is= 9
+
+        same as Whole ruby is written in c language and when we write ruby hello.rb we call execution file of ruby with argument hello.rb. When we try to execute ruby file in another folder in which ruby execution file is nt exist, it is throw an error and we cant execute ruby script.
+  
+  ### Ruby Vs C++
 
     ruby is scripting language and c++ is compiled language
 
