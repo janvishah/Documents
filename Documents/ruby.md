@@ -8,7 +8,7 @@
   
   (in compiler language: compiler compile the program and convert code in to machine language and after that run the obj file)
 
-### Advantage of ruby
+#### Advantage of ruby
 
     * It is open source programming language with focus on simplicity.
     * It has an advance array class. - we dont need to define size before compilation
@@ -18,14 +18,14 @@
     * it has flexible syantax : ex: we can omit parenthese from function. we can omit return from the function
     * It is expressioon orienetes : we can write x= if a<0 then b else c
 
-### To understand how ruby interpreter works:
+#### To understand how ruby interpreter works:
 
     http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/
 
     To know how interpreter and compiler work -> Documents/compiler-Interpreter
    
    
-### From where ruby script execute?
+#### From where ruby script execute?
 
 /home/homeuser/.rvm/bin/ruby at where rvm ruby execution file store
 
@@ -70,7 +70,7 @@ This path is stored in ~/.profile file. and this file is executed autometically 
 
         same as Whole ruby is written in c language and when we write ruby hello.rb we call execution file of ruby with argument hello.rb. When we try to execute ruby file in another folder in which ruby execution file is nt exist, it is throw an error and we cant execute ruby script.
   
-### Ruby Vs C++
+#### Ruby Vs C++
 
 * ruby is scripting language and c++ is compiled language
 * In ruby everthing is an object:
@@ -103,22 +103,23 @@ x.class #=> String
 5.times { puts "Hello world" } # Prints "Hello World" five times.
 ```
 
-### What is required to execute Ruby code?
+#### What is required to execute Ruby code?
     The file must have executioon permission.
     There must me loaded .profile file
 
-### How make ruby file executable?
+#### How make ruby file executable?
+    
     first write this line in the file. This line call ruby executable file from its path
         #!/usr/bin/ruby
-      It is called a Shebang. It tells the program loader what command to use to execute the file. if we use RVM, A portable way (working, say, under Cygwin and RVM) would be:
+    It is called a Shebang. It tells the program loader what command to use to execute the file. if we use RVM, A portable way (working, say, under Cygwin and RVM) would be:
         #!/usr/bin/env ruby Or #!/usr/bin/env ruby -w
-      This will use the env command to figure out where the Ruby interpreter is, and run it.
-      I think -w refers to enabling verbose mode or simply enabling error reporting.  
+    This will use the env command to figure out where the Ruby interpreter is, and run it.
+    I think -w refers to enabling verbose mode or simply enabling error reporting.  
     
     Than give executable permission to the file 
       chmod +x hello 
 
-->  Difference between require and load method.
+#### Difference between require and load method.
     - The load method includes the named Ruby source file every time the method is executed.
     - require method loads any given file only once.
     - require_relative (introduced in Ruby 1.9) use for the location of the file we're loading is relative to the file we're loading it from - they're both in the same directory.
