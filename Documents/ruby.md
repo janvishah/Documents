@@ -20,9 +20,8 @@
 
 ### To understand how ruby interpreter works:
 
-  http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/
-
-  To know how interpreter and compiler work -> Documents/compiler-Interpreter
+[http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/]
+To know how interpreter and compiler work -> Documents/compiler-Interpreter
    
    
 ### From where ruby script execute?
