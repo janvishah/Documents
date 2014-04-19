@@ -20,19 +20,20 @@
 
 ### To understand how ruby interpreter works:
 
-[http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/]
+http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/
+
 To know how interpreter and compiler work -> Documents/compiler-Interpreter
    
    
 ### From where ruby script execute?
 
-  /home/homeuser/.rvm/bin/ruby at where rvm ruby execution file store
+/home/homeuser/.rvm/bin/ruby at where rvm ruby execution file store
 
-  /usr/bin/env ruby at where system ruby, and not any of the rvm rubies.
+/usr/bin/env ruby at where system ruby, and not any of the rvm rubies.
   
-  This path is stored in ~/.profile file. and this file is executed autometically by displaymanager during the startup process desktop session
+This path is stored in ~/.profile file. and this file is executed autometically by displaymanager during the startup process desktop session
 
-  ##### if there is no .profile file load in than how can ruby file execute? or hoy ruby file execute.
+##### If there is no .profile file load in than how can ruby file execute? or hoy ruby file execute.
       
       for that we should know where our ruby install?
         so for that we find directory of ruby using 'which ruby'
